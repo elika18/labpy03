@@ -71,9 +71,13 @@ Kode Program (latihan3.py)
 saldo = 1000000  # saldo awal
 
 while True:
+
     print(f"\nSaldo saat ini: Rp {saldo}")
+
     print("1. Tarik Uang")
+
     print("2. Keluar")
+
     pilihan = input("Pilih menu (1/2): ")
 
     if pilihan == "1":
