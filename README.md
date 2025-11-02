@@ -1,6 +1,6 @@
 # **Tugas Praktikum 4 – labpy03**
 
-# *Latihan 1*
+# *Latihan 1 - Bilangan Acak Kurang dari 0.5 *
 
 n = int(input("Masukkan nilai N: "))
 
