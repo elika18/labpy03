@@ -1,9 +1,3 @@
-Siap 👍 berikut ini contoh isi README.md lengkap dengan format markdown dan code block agar rapi ketika diupload ke GitHub.
-Kamu bisa copy-paste langsung ke file README.md di repo labpy03.
-
-
----
-
 # **Tugas Praktikum 4 – labpy03**
 
 ## Nama:
@@ -13,7 +7,7 @@ Teknik Informatika – Universitas Pelita Bangsa
 
 ---
 
-## **Latihan 1 – Bilangan Acak Kurang dari 0.5**
+Latihan 1 – Bilangan Acak Kurang dari 0.5
 
 ### **Kode Program (latihan1.py)**
 ```python
@@ -179,5 +173,4 @@ Kesimpulan
 Dari tiga latihan ini, kita belajar:
 Cara menggunakan fungsi random() dan perulangan while.
 Cara menghitung laba dengan logika kondisi if dan for.
-
 Cara membuat simulasi interaktif menggunakan input() dan while.
