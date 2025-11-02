@@ -67,7 +67,7 @@ Hasil Screenshot
 # *Latihan 3 – Simulasi Mesin ATM Sederhana*
 
 Kode Program (latihan3.py)
-
+```python
 saldo = 1000000  # saldo awal
 
 while True:
@@ -90,7 +90,7 @@ while True:
         break
     else:
         print("Pilihan tidak valid, silakan coba lagi.")
-
+```
 Alur Algoritma
 1. Inisialisasi saldo awal sebesar Rp1.000.000.
 2. Program menampilkan dua menu:
