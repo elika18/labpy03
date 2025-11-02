@@ -1,12 +1,7 @@
 # **Tugas Praktikum 4 – labpy03**
 
-## **Latihan 1 – Bilangan Acak Kurang dari 0.5**
+# Latihan 1
 
-### Kode Program (`latihan1.py`)
-```python
-from random import random
-
-# Meminta input nilai N saat runtime
 n = int(input("Masukkan nilai N: "))
 
 i = 0
