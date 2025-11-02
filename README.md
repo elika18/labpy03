@@ -27,13 +27,13 @@ Hasil Screenshot
 
 Kode Program (latihan2.py)
 
-# Modal awal
+#Modal awal
 modal = 100000000
 
-# Inisialisasi total laba
+#Inisialisasi total laba
 total = 0
 
-# Perulangan selama 8 bulan
+#Perulangan selama 8 bulan
 for i in range(1, 9):
     if i == 1 or i == 2:
         laba = 0
@@ -62,4 +62,49 @@ Bulan 8 → 20%
 Hasil Screenshot
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d8b56fee-6e9d-4b34-b6c1-a99ecbbd349a" />
 
+# *Latihan 3 – Simulasi Mesin ATM Sederhana*
 
+Kode Program (latihan3.py)
+
+saldo = 1000000  # saldo awal
+
+while True:
+    print(f"\nSaldo saat ini: Rp {saldo}")
+    print("1. Tarik Uang")
+    print("2. Keluar")
+    pilihan = input("Pilih menu (1/2): ")
+
+    if pilihan == "1":
+        tarik = int(input("Masukkan jumlah penarikan: "))
+        if tarik > saldo:
+            print("Saldo tidak cukup!")
+        elif tarik <= 0:
+            print("Jumlah penarikan tidak valid!")
+        else:
+            saldo -= tarik
+            print("Penarikan berhasil!")
+    elif pilihan == "2":
+        print("Terima kasih telah menggunakan ATM!")
+        break
+    else:
+        print("Pilihan tidak valid, silakan coba lagi.")
+
+Alur Algoritma
+1. Inisialisasi saldo awal sebesar Rp1.000.000.
+2. Program menampilkan dua menu:
+(1) Tarik uang
+(2) Keluar
+3. Jika pengguna memilih 1, masukkan jumlah uang yang akan ditarik:
+Jika jumlah lebih besar dari saldo → tampilkan pesan "Saldo tidak cukup".
+Jika jumlah ≤ 0 → tampilkan pesan "Jumlah tidak valid".
+Jika valid → saldo dikurangi dan tampil pesan "Penarikan berhasil".
+4. Jika pengguna memilih 2, program berhenti dengan pesan "Terima kasih".
+5. Jika pilihan tidak valid → tampilkan pesan kesalahan.
+
+📸 Hasil Screenshot
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6083becb-65e2-425d-b960-ca2d318d7cb9" />
+
+# Kesimpulan
+Latihan 1: Belajar penggunaan random() dan kontrol perulangan while.
+Latihan 2: Memahami perulangan for dan logika percabangan untuk menghitung laba.
+Latihan 3: Menerapkan konsep input, output, perulangan, dan kondisi pada simulasi ATM.
