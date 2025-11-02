@@ -2,6 +2,8 @@
 
 # *Latihan 1 - Bilangan Acak Kurang dari 0.5*
 
+```python
+# Meminta input nilai N saat runtime
 n = int(input("Masukkan nilai N: "))
 
 i = 0
@@ -12,7 +14,7 @@ while i < n:
         i += 1
 
 print("Selesai")
-
+```
 Alur Algoritma
 1. Import fungsi random() dari modul random.
 2. Program meminta input jumlah data N.
@@ -26,11 +28,11 @@ Hasil Screenshot
 # *Latihan 2 – Menghitung Laba Usaha*
 
 Kode Program (latihan2.py)
-
-#Modal awal
+```python
+# Modal awal
 modal = 100000000
 
-#Inisialisasi total laba
+# Inisialisasi total laba
 total = 0
 
 #Perulangan selama 8 bulan
@@ -47,7 +49,7 @@ for i in range(1, 9):
     print(f"laba bulan ke-{i} sebesar: {laba}")
 
 print(f"Total laba adalah: {total}")
-
+```
 Alur Algoritma
 1. Tentukan modal awal = 100 juta.
 2. Gunakan perulangan for dari bulan 1 sampai 8.
