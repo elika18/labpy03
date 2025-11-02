@@ -1,15 +1,13 @@
 # **Tugas Praktikum 4 – labpy03**
 
-## Nama:
-Elika Manuela Damanik  
-## Prodi:
-Teknik Informatika – Universitas Pelita Bangsa  
+## Nama : Elika Manuela Damanik  
+## Prodi: Teknik Informatika – Universitas Pelita Bangsa  
 
 ---
 
 Latihan 1 – Bilangan Acak Kurang dari 0.5
 
-### **Kode Program (latihan1.py)**
+Kode Program (latihan1.py)
 ```python
 from random import random
 
