@@ -1,4 +1,4 @@
-# **Tugas Praktikum 4 – labpy03**
+# **Tugas Praktikum 4**
 
 # *Latihan 1 - Bilangan Acak Kurang dari 0.5*
 
@@ -105,6 +105,9 @@ Jika valid → saldo dikurangi dan tampil pesan "Penarikan berhasil".
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6083becb-65e2-425d-b960-ca2d318d7cb9" />
 
 # Kesimpulan
+
 Latihan 1: Belajar penggunaan random() dan kontrol perulangan while.
+
 Latihan 2: Memahami perulangan for dan logika percabangan untuk menghitung laba.
+
 Latihan 3: Menerapkan konsep input, output, perulangan, dan kondisi pada simulasi ATM.
